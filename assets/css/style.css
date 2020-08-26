@@ -687,7 +687,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #233483;
+  background: #000000;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -696,12 +696,12 @@ section .container {
   margin-bottom: 20px;
   transform-style: preserve-3d;
 }
-
+/*#icon color*/
 .services .icon-box .icon i {
   color: #fff;
   font-size: 28px;
 }
-
+/*#box behind icon - color*/
 .services .icon-box .icon::before {
   position: absolute;
   content: '';
@@ -721,7 +721,7 @@ section .container {
   font-size: 24px;
   padding: 10px;
 }
-
+/*#Color of letters underneath icon */
 .services .icon-box h4 a {
   color: #fff;
 }
@@ -731,9 +731,9 @@ section .container {
   font-size: 14px;
   margin-bottom: 0;
 }
-
+/*#Color of BOX holding the icon*/
 .services .icon-box:hover {
-  background: #24384e;
+  background: #121518;
   border-color: #1897d2;
 }
 
@@ -741,12 +741,13 @@ section .container {
   background: #fff;
 }
 
+/*#icon color AFTER hovering on it*/
 .services .icon-box:hover .icon i {
-  color: #1897d2; 
+  color: #000000; 
 }
-
+/*#Color of Background AFTER hovering on it*/
 .services .icon-box:hover .icon::before {
-  background: #1897d2;
+  background: #000000;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
