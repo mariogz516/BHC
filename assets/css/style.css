@@ -116,7 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #1853d2;
+  background: #ffffff;
+  color: #1853d2;
 }
 
 @media (max-width: 992px) {
@@ -184,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
-
+/* Color of line under menu items */
 .nav-menu a:before {
   content: "";
   position: absolute;
@@ -192,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #ffd000;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -374,13 +375,13 @@ section .container {
   color: #aaaaaa;
   font-family: "Poppins", sans-serif;
 }
-
+/*LINE AFTER MENU HEADINGS*/
 .section-title h2::after {
   content: "";
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #ffd000;
   margin: 4px 10px;
 }
 
@@ -635,7 +636,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #ffd000;
   margin-bottom: 10px;
 }
 
@@ -660,6 +661,7 @@ section .container {
   padding-bottom: 0;
 }
 
+/* Bullet colors - both border AND inside color ("background")*/
 .resume .resume-item::before {
   content: "";
   position: absolute;
@@ -668,8 +670,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #ffd000;
+  border: 2px solid #ffd000;
 }
 
 /*--------------------------------------------------------------
@@ -698,7 +700,7 @@ section .container {
 }
 /*#icon color*/
 .services .icon-box .icon i {
-  color: #fff;
+  color: #ffd000;
   font-size: 28px;
 }
 /*#box behind icon - color*/
@@ -738,12 +740,12 @@ section .container {
 }
 
 .services .icon-box:hover .icon {
-  background: #fff;
+  background: #000000;
 }
 
 /*#icon color AFTER hovering on it*/
 .services .icon-box:hover .icon i {
-  color: #000000; 
+  color: #fff; 
 }
 /*#Color of Background AFTER hovering on it*/
 .services .icon-box:hover .icon::before {
@@ -923,7 +925,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #ffd000;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1066,7 +1068,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: #ffd000;
   border: 0;
   padding: 10px 30px;
   color: #fff;
